@@ -24,9 +24,7 @@ weightChange = (weight) => {
 
 setBmi () {
   let bmi = ((this.state.weight / this.state.height/ this.state.height) * 1000).toFixed(2);
-  this.setState({bmi:bmi,bmiClass: this.setBmiClass(bmi)},()=>{
-    console.log(this.state)
-  })
+  this.setState({bmi:bmi,bmiClass: this.setBmiClass(bmi)})
 }
 
 setBmiClass(bmi){
