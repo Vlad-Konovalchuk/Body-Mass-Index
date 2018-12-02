@@ -13,17 +13,33 @@ class App extends Component {
       bmiClass: 'Normal'
     }
   }
+
+heightChange = (height) => {
+  this.setState({height : height },()=> {
+    console.log(this.state)
+  });
+} 
+
+weightChange = (weight) => {
+  this.setState({weight : weight },()=> {
+    console.log(this.state)
+  });
+}  
+
   render(){
+    const {height,weight} = this.state;
+
     return (
       <div className="App">
       <h1>BMI Calculator</h1>
       <form >
         <div>
           <label>Height</label>
-          <Range />
+          <Range value={height} onChange={this.heightChange}/>
         </div>
         <div>
           <label>Weight</label>
+          <Range value={weight} onChange={this.weightChange}/>
         </div>
       </form>
       <br/><br/>
