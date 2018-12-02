@@ -50,7 +50,6 @@ setBmiClass(bmi){
           <Range value={weight} onChange={this.weightChange}/>
         </div>
       </form>
-      <br/><br/>
       <Output data={this.state}/>
       </div>
     );

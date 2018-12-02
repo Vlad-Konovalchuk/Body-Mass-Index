@@ -1,6 +1,7 @@
 {
   "name": "survey",
   "version": "0.1.0",
+  "homepage": "https://vlad-konovalchuk.github.io/Body-Mass-Index/",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.0.1",
@@ -11,6 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "npm run build && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
