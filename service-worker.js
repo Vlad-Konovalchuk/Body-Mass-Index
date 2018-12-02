@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Body-Mass-Index/precache-manifest.af78053270dbf46e745cf9e920ed291b.js"
+  "/Body-Mass-Index/precache-manifest.709cf0ab7e878c498604592dac3e2013.js"
 );
 
 workbox.clientsClaim();
