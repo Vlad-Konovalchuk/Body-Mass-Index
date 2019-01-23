@@ -37,15 +37,15 @@ label {
 }
 
 .output h3 a {
-  all: unset;
-  display: block;
-  margin: 0 auto;
-  width: max-content;
-  border-bottom: 2px dashed #2497E3;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    all: unset;
+    width: max-content;
+    border-bottom: 2px dashed #2497e3;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .danger {
