@@ -1,10 +1,9 @@
 {
   "name": "survey",
   "version": "0.1.0",
-  "homepage": "https://vlad-konovalchuk.github.io/Body-Mass-Index/",
+  "homepage": "",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
