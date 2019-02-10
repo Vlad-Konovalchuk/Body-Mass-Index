@@ -40,7 +40,6 @@ label {
     display: block;
     margin: 0 auto;
     margin-top: 8px;
-    all: unset;
     width: max-content;
     border-bottom: 2px dashed #2497e3;
     font-size: 18px;
